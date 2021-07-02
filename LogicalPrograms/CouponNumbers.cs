@@ -31,15 +31,16 @@ namespace LogicalPrograms
                 couponsList.Add(Coupon);//every time we add the random number into the list 
             }
 
-            Console.WriteLine("The  distinct coupons are");
+            Console.Write("\nThe  distinct coupons is : ");
             //by using foreach only we can get the values in HashSet
             foreach (int i in couponsList)
             {
-                Console.Write(i + " , ");
+                Console.Write(i);
             }
 
             //Showing the count
-            Console.WriteLine($"\t\nWe need {couponCount} Random number generate a coupon");
+            Console.WriteLine($"\n\t\nFor geting this coupon number {couponCount} Random numbers are generated");
         }
     }
 }
+
