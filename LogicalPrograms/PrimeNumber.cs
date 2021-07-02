@@ -23,6 +23,9 @@ namespace LogicalPrograms
                     break;//if c is incremented then we can tell it is not a prime so need of checking that's why we will come out of loop
                 }
             }
+
+            //checking c for final result
+
             if(c == 0)
             {
                 Console.WriteLine("{0} is a Prime Number", number);
