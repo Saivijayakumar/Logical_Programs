@@ -16,7 +16,7 @@ namespace LogicalPrograms
             Console.WriteLine("\t\t\tWELCOME\n");
             Console.WriteLine("\tThese are the LIST of some Logical Programs");
             Console.WriteLine("\t----------------------------------------------");
-            Console.WriteLine("\t 1.Fibonacci Series\n\t 2.Perfect Number\n\t 3.Prime Number\n\t 4.");
+            Console.WriteLine("\t 1.Fibonacci Series\n\t 2.Perfect Number\n\t 3.Prime Number\n\t 4.Reversing Number\n\t 5.");
             Console.WriteLine("\t----------------------------------------------");
             Console.Write("\tEnter your choice : ");
             switch (Convert.ToInt32(Console.ReadLine()))
@@ -32,6 +32,10 @@ namespace LogicalPrograms
                 case 3:
                     Console.WriteLine("\t Prime Number Code Starts");
                     PrimeNumber.CheckingPrime();
+                    break;
+                case 4:
+                    Console.WriteLine("\t Reversing Number Code Starts");
+                    ReversingNumber.Reversing();
                     break;
                 default:
                     Console.WriteLine("\t PLEASE ENTER A VALID OPTION");
